@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c31cb07c6a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/utils/icons/code-solid.svg">
+    <title>Portfolio</title>
+</head>
+<body>
+   <main>
+    <section class="opening" id="Hello">
+        <nav class="nav-bar">
+             <span class="fa-solid fa-bars fa-2x"></span>
+             <span class="fa-regular fa-user fa-2x"></span>
+             <div class="hide" id="nav-elements">
+                <a href="#Hello" class="links">Hi</a>
+                <a href="#Projects" class="links">Projects</a>
+                <a href="#Contact-Me" class="links">Contact-Me</a>
+             </div>
+        </nav>
+        <div class="hello">
+            <h1>&nbsp;Hi,</h1>
+        </div>
+    </section>
+    <section class="projects" id="Projects"> 
+        <h1>You can checkout some of my work here</h1>
+        <div class="project-container">
+                <div class="card-container">
+                   <img class="image-card" src="/utils/images/Weather-App.png" alt="">
+                </div> 
+            <div class="description">
+                <h2><a href="https://nothim-weather-application.herokuapp.com/" target="_blank"> Weather App</a></h2>
+                <p> This is a simple Weather App which tells you about the weather, windspeed,
+                temperature and many more basic things. My goal while making this project was
+                to learn more about api's handling and serving up data.
+                </p>
+               
+            </div>
+     </div>
+    </section>
+   </main>
+   <section class="hide" id="profile-card-container">
+    <div class="background-opacity"></div>
+    <div class="profile-card">
+        <div class="profile-image">
+            <img src="/utils/images/robot.png" alt="" title="I passed CAPTCHA">
+        </div>
+             
+            <div class="profile-socials">
+                <p>Hey there, I'm robot, an aspiring web developer and this is where I showcase my work, hope you like it.</p>
+                <div class="profile-icons">
+                <span class="fa-solid fa-phone"></span>
+                <span class="fa-brands fa-twitter"></span>
+                <span class="fa-brands fa-discord"></span>
+                <span class="fa-brands fa-reddit-alien"></span>
+                <span class="fa-brands fa-linkedin-in"></span>
+                <span class="fa-brands fa-youtube"></span>
+                <span class="fa-solid fa-envelope"></span>
+                </div>
+            </div>
+    </div>
+   </section>
+   <footer id="Contact-Me">
+    <div class="hyper-links">
+        <h2>Site Links</h2>
+        <a href="#Hello" class="links">Hi</a>
+        <a href="#Projects" class="links">Projects</a>
+        <a href="#Contact-Me" class="links">Contact-Me</a>
+    </div>
+    <div class="socials">
+        <span class="fa-solid fa-phone"></span>
+        <span class="fa-brands fa-twitter"></span>
+        <span class="fa-brands fa-discord"></span>
+        <span class="fa-brands fa-reddit-alien"></span>
+        <span class="fa-brands fa-linkedin-in"></span>
+        <span class="fa-brands fa-youtube"></span>
+        <span class="fa-solid fa-envelope"></span>
+    </div>
+   </footer>
+   <script src="/server/server.js"></script>
+   <script src="/utils/js/app.js"></script>
+</html>
