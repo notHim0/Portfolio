@@ -196,6 +196,9 @@ body {
 	flex-wrap: wrap;
 	flex-direction: column;
 }
+.about-me {
+	padding: 10px 0 10px 0;
+}
 /* 
 
 
@@ -292,6 +295,9 @@ footer .socials span {
 	}
 	.profile-socials {
 		margin: 5vh;
+	}
+	.about-me {
+		padding: 5px 0 5px 0;
 	}
 }
 /*
